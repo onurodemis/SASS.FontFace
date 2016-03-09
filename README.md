@@ -14,15 +14,13 @@ Folder Structure
 - ------FontName.ttf
 - ------FontName.woff
 - ------FontName.svg
-
 - -- Sass
 - ------ main.scss
-- - ------_glyphicons.scss
-
+- ------_glyphicons.scss
 - ------ \Mixins
-- ------_common.scss
-- ------_font-face-mixins.scss
-- ------_font-face-settings.scss
+- --------_common.scss
+- --------_font-face-mixins.scss
+- --------_font-face-settings.scss
 
 
 >Import Font Face Settings and Mixins
