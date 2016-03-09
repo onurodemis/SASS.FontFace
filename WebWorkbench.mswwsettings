@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<web-workbench>
+  <file name="_theme.scss">
+    <setting name="Compile">True</setting>
+    <setting name="Minify">True</setting>
+    <setting name="OutputFolder">..\Css</setting>
+    <setting name="IgnoreWarnings">False</setting>
+    <setting name="IgnoreErrors">False</setting>
+    <setting name="CompileStyle">Nested</setting>
+    <setting name="DebugInfo">False</setting>
+  </file>
+  <file name="main.scss">
+    <setting name="Compile">True</setting>
+    <setting name="Minify">True</setting>
+    <setting name="OutputFolder">..\Css</setting>
+    <setting name="IgnoreWarnings">True</setting>
+    <setting name="IgnoreErrors">True</setting>
+    <setting name="CompileStyle">Nested</setting>
+    <setting name="DebugInfo">False</setting>
+  </file>
+</web-workbench>

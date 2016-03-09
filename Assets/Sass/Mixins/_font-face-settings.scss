@@ -1,0 +1,13 @@
+/// Fallback Settings
+/// You can add new font style as a fallback then you can set a property calling the font-face mixins
+
+$font-family: (
+  base: (Helvetica, Arial, sans-serif),
+  serif: (Georgia, "Times New Roman", Times, serif),
+  mono: (Menlo, Monaco, Consolas, "Courier New", monospace)
+) !default;
+
+
+/// Font Path Settings
+/// It depends your project's folder structure
+$font-path:'../Fonts/' !default;

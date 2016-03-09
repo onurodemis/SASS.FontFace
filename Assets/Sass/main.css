@@ -1,0 +1,269 @@
+.icon-hourglass_full:before {
+  content: "\e88c"; }
+
+.icon-note_add:before {
+  content: "\e89c"; }
+
+.icon-notifications:before {
+  content: "\e7f4"; }
+
+.icon-notifications_active:before {
+  content: "\e7f7"; }
+
+.icon-notifications_none:before {
+  content: "\e7f5"; }
+
+.icon-notifications_off:before {
+  content: "\e7f6"; }
+
+.icon-notifications_paused:before {
+  content: "\e7f8"; }
+
+.icon-offline_pin:before {
+  content: "\e90a"; }
+
+.icon-chevron-left:before {
+  content: "\f053"; }
+
+.icon-chevron-right:before {
+  content: "\f054"; }
+
+.icon-plus-circle:before {
+  content: "\f055"; }
+
+.icon-minus-circle:before {
+  content: "\f056"; }
+
+.icon-times-circle:before {
+  content: "\f057"; }
+
+.icon-check-circle:before {
+  content: "\f058"; }
+
+.icon-question-circle:before {
+  content: "\f059"; }
+
+.icon-info-circle:before {
+  content: "\f05a"; }
+
+@font-face {
+  font-family: "DuruSansRegular";
+  src: url("../Fonts/DuruSansRegular/DuruSansRegular.eot");
+  src: url("../Fonts/DuruSansRegular/DuruSansRegular.eot?#iefix") format("embedded-opentype"), url("../Fonts/DuruSansRegular/DuruSansRegular.woff") format("woff"), url("../Fonts/DuruSansRegular/DuruSansRegular.ttf") format("truetype"), url("../Fonts/DuruSansRegular/DuruSansRegular.svg#DuruSansRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.dsr, body .first b:nth-child(1), body .duru {
+  font-family: DuruSansRegular, Helvetica, Arial, sans-serif; }
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../Fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: url("../Fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../Fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../Fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype"), url("../Fonts/OpenSansRegular/OpenSansRegular.svg#OpenSansRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.osr, body .first b:nth-child(2), body .open {
+  font-family: OpenSansRegular, Helvetica, Arial, sans-serif; }
+
+@font-face {
+  font-family: "Glyphicons";
+  src: url("../Fonts/Glyphicons/Glyphicons.eot");
+  src: url("../Fonts/Glyphicons/Glyphicons.eot?#iefix") format("embedded-opentype"), url("../Fonts/Glyphicons/Glyphicons.woff") format("woff"), url("../Fonts/Glyphicons/Glyphicons.ttf") format("truetype"), url("../Fonts/Glyphicons/Glyphicons.svg#Glyphicons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon, [class^="icon-"], [class*=" icon-"] {
+  font-family: "Glyphicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden], template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active, a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button, select {
+  text-transform: none; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: 700; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td, th {
+  padding: 0; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  background-color: #f1f1f1; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-weight: normal;
+    line-height: 1; }
+  body ul, body ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  body .container {
+    width: 680px;
+    margin: auto; }
+  body .compare:before, body .compare:after {
+    content: " ";
+    display: table; }
+  body .compare:after {
+    clear: both; }
+  body .compare li {
+    float: left;
+    width: 50%; }
+  body code {
+    display: block;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    background-color: #d9d9d9; }
+  body .icn-set:before, body .icn-set:after {
+    content: " ";
+    display: table; }
+  body .icn-set:after {
+    clear: both; }
+  body .icn-set li {
+    text-align: center;
+    float: left;
+    width: 12.5%; }
+    body .icn-set li i {
+      font-size: 38px; }
+
+/*# sourceMappingURL=main.css.map */

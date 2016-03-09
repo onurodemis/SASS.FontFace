@@ -1,0 +1,102 @@
+/// Import Font Face Settings and Mixins
+@import "Mixins/font-face-settings";
+@import "Mixins/font-face-mixins";
+
+/// Import Glyphicons Css From IcoMoon
+@import "glyphicons";
+
+/// Your Theme
+$theme-fonts:
+    (dsr, DuruSansRegular),
+    (osr, OpenSansRegular)
+;
+
+/// Create Fonts
+@include create-font-face($theme-fonts);
+
+
+/// Create Glyphicons
+/// If you embed Font Awesome, you can set prefix param 'fa'. 
+/// For example: @include create-gli('Glyphicons', fa);
+
+/// Default prefix name is 'icon' this prefix is generally using by IcoMoon.
+@include create-gli('Glyphicons');
+
+
+
+/// In Conclusions
+/// You can extend and use auto generated class from your new classes
+/// For example
+
+@import "Mixins/common";
+
+@include normalize;
+
+body {
+  font-family:map-get($font-family, base);
+  font-size:13px;
+  background-color:#f1f1f1;
+
+  h1, h2, h3, h4, h5, h6 {
+      font-weight:normal;
+      line-height:1;
+  }
+
+  ul {
+      &, li {
+          margin:0;
+          padding:0;
+          list-style:none;
+      }
+  }
+
+  .container {
+      width:680px;
+      margin:auto;
+  }
+
+  .first {
+      b:nth-child(1) {
+          @extend .dsr;
+      }
+      b:nth-child(2) {
+          @extend .osr;
+      }
+  }
+
+  .duru {
+      @extend .dsr;
+  }
+
+  .open {
+      @extend .osr;
+  }
+
+  .compare {
+      @include clearfix; 
+      li {
+          float:left;
+          width:50%;
+      }
+  }
+
+  code {
+      display:block;
+      border-radius:4px;
+      padding:10px;
+      margin:10px 0;
+      font-family:map-get($font-family, mono);
+      background-color:lighten(#ccc, 5);
+  }
+
+  .icn-set {
+      @include clearfix; 
+      li {
+          text-align:center;
+          float:left;
+          width:12.5%;
+
+          i {font-size:38px;}
+      }
+  }
+}
