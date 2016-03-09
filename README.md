@@ -42,22 +42,22 @@ $theme-fonts:
     (fn2, FontName2)
 ;
 
-Create Fonts
+>Create Fonts
 @include create-font-face($theme-fonts);
 
 
-Create Glyphicons
-If you embed Font Awesome, you can set prefix param 'fa'. 
+>Create Glyphicons
+>If you embed Font Awesome, you can set prefix param 'fa'. 
 
-For example: @include create-gli('Glyphicons', fa);
+>For example: @include create-gli('Glyphicons', fa);
 
-Default prefix name is 'icon' this prefix is generally using by IcoMoon.
+>Default prefix name is 'icon' this prefix is generally using by IcoMoon.
 @include create-gli('GliFontName');
 
 
-In Conclusions
-You can extend and use auto generated class from your new classes
-For example
+>In Conclusions
+>You can extend and use auto generated class from your new classes
+>For example
 
 body {
   @extend .fn;
