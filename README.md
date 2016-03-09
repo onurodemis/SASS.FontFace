@@ -3,7 +3,9 @@ Easy implementation font face and glyphicons with SASS
 
 http://onurodemis.com/SASS.FontFace/
 
-How to use<Enter>
+How to use
+
+
 Folder Structure
 
 - Assets
