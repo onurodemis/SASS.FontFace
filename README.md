@@ -15,26 +15,28 @@ Folder Structure
 - ------FontName.woff
 - ------FontName.svg
 
+- -- Sass
+- ------ main.scss
+- - ------_glyphicons.scss
 
--- Sass
------- main.scss
-------_glyphicons.scss
-
-
------- \Mixins
--------_common.scss
--------_font-face-mixins.scss
--------_font-face-settings.scss
+- ------ \Mixins
+- ------_common.scss
+- ------_font-face-mixins.scss
+- ------_font-face-settings.scss
 
 
-Import Font Face Settings and Mixins
+>Import Font Face Settings and Mixins
+
 @import "Mixins/font-face-settings";
+
 @import "Mixins/font-face-mixins";
 
-Import Glyphicons Classes that generated via IcoMoon
+>Import Glyphicons Classes that generated via IcoMoon
+
 @import "glyphicons";
 
-Your Theme
+>Your Theme
+
 $theme-fonts:
     (fn, FontName),
     (fn2, FontName2)
@@ -46,6 +48,7 @@ Create Fonts
 
 Create Glyphicons
 If you embed Font Awesome, you can set prefix param 'fa'. 
+
 For example: @include create-gli('Glyphicons', fa);
 
 Default prefix name is 'icon' this prefix is generally using by IcoMoon.
